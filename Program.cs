@@ -10,7 +10,7 @@ namespace ConsoleApp3
             int cota;
             Console.Write("Introduceti valoarea fara TVAa: ");
             valoare = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Introduceti cota TVAului: ");
+            Console.Write("Introduceti cota TVAului:::: ");
             cota = Convert.ToInt32(Console.ReadLine());
             tva = (double)cota / 100 * valoare;
             Console.WriteLine("Valoare TVA: {0}", tva);
