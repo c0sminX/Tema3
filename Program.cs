@@ -8,7 +8,7 @@ namespace ConsoleApp3
         {
             double valoare,tva;
             int cota;
-            Console.Write("Introduceti valoarea fara TVA: ");
+            Console.Write("Introduceti valoarea fara TVAa: ");
             valoare = Convert.ToDouble(Console.ReadLine());
             Console.Write("Introduceti cota TVAului: ");
             cota = Convert.ToInt32(Console.ReadLine());
